@@ -2,7 +2,12 @@
 
 This project demonstrates a land use classification model using Sentinel 2 data.
 
+Download the whole folder into your desktop and store them in the same parent folder. 
+Then you should be able to run the jupyter notebook. 
 
+If you cannot open a jupyter notebook, please install Anaconda in https://docs.anaconda.com/anaconda/install/
+
+The Python version I use is 3.8.5
 
 ## Requirements
 
