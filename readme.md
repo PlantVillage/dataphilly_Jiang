@@ -9,6 +9,16 @@ If you cannot open a jupyter notebook, please install Anaconda in https://docs.a
 
 The Python version I use is 3.8.5
 
+In case you have problems installing/importing ee package in your PC, you can try to create a new virtual environment in Anacoda: 
+
+```shell
+conda activate
+conda create --name ee
+conda activate ee
+conda install -c conda-forge earthengine-api
+
+```
+
 ## Requirements
 
 You will need conda to load the dependencies
