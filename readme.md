@@ -7,17 +7,7 @@ Then you should be able to run the jupyter notebook.
 
 If you cannot open a jupyter notebook, please install Anaconda in https://docs.anaconda.com/anaconda/install/
 
-The Python version I use is 3.8.5
-
-In case you have problems installing/importing ee package in your PC, you can try to create a new virtual environment in Anacoda: 
-
-```shell
-conda activate
-conda create --name ee
-conda activate ee
-conda install -c conda-forge earthengine-api
-
-```
+This project uses Python 3.8.5
 
 ## Requirements
 
@@ -27,9 +17,8 @@ Load the dependencies into your Python 3.x environment:
 
 ```shell
 conda env create -f=env.yml
+conda activate landuse
 ```
-
-
 
 Optionally, you can create a [Google Earth Engine account](https://signup.earthengine.google.com/), since this project uses Google Earth Engine to retrieve satellite data. For this demo, a cached copy of the data is included, so you do not need to use Earth Engine.
 
